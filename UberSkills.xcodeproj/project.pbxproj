@@ -13,6 +13,9 @@
 		EA0DC327240705ED00BEA5F4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC326240705ED00BEA5F4 /* LoginController.swift */; };
 		EA0DC32924070A4800BEA5F4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC32824070A4800BEA5F4 /* UIView+Extension.swift */; };
 		EA0DC32B240713D000BEA5F4 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC32A240713D000BEA5F4 /* UITextField+Extension.swift */; };
+		EA0DC32D240718AF00BEA5F4 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC32C240718AF00BEA5F4 /* UIColor+Extension.swift */; };
+		EA0DC32F24071BC500BEA5F4 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC32E24071BC500BEA5F4 /* UILabel+Extension.swift */; };
+		EA0DC33124071D6A00BEA5F4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0DC33024071D6A00BEA5F4 /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EA0DC326240705ED00BEA5F4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EA0DC32824070A4800BEA5F4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		EA0DC32A240713D000BEA5F4 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		EA0DC32C240718AF00BEA5F4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EA0DC32E24071BC500BEA5F4 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		EA0DC33024071D6A00BEA5F4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				EA0DC326240705ED00BEA5F4 /* LoginController.swift */,
+				EA0DC33024071D6A00BEA5F4 /* SignUpController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,6 +110,8 @@
 			children = (
 				EA0DC32824070A4800BEA5F4 /* UIView+Extension.swift */,
 				EA0DC32A240713D000BEA5F4 /* UITextField+Extension.swift */,
+				EA0DC32C240718AF00BEA5F4 /* UIColor+Extension.swift */,
+				EA0DC32E24071BC500BEA5F4 /* UILabel+Extension.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -179,8 +188,11 @@
 			files = (
 				EA0DC30D2407053400BEA5F4 /* AppDelegate.swift in Sources */,
 				EA0DC32B240713D000BEA5F4 /* UITextField+Extension.swift in Sources */,
+				EA0DC33124071D6A00BEA5F4 /* SignUpController.swift in Sources */,
+				EA0DC32F24071BC500BEA5F4 /* UILabel+Extension.swift in Sources */,
 				EA0DC32924070A4800BEA5F4 /* UIView+Extension.swift in Sources */,
 				EA0DC327240705ED00BEA5F4 /* LoginController.swift in Sources */,
+				EA0DC32D240718AF00BEA5F4 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

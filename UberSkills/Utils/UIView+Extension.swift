@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  UIView+Extension.swift
 //  UberSkills
 //
 //  Created by Marcin Pietrzak on 26/02/2020.
@@ -9,6 +9,34 @@
 import UIKit
 
 extension UIView {
+    
+    /// Return input container view
+    ///
+    /// - Parameters:
+    ///   - image: UIImage
+    ///   - textField: UITextField
+    func inputContainerView(image: UIImage, textField: UITextField) -> UIView {
+        let view = UIView()
+        
+        let imageView = UIImageView()
+        imageView.image = image
+        imageView.alpha = 0.87
+        
+        view.addSubview(imageView)
+        imageView.centerY(inView: view)
+        imageView.anchor(left: view.leftAnchor, paddingLeft: 8.0, width: 32.0, height: 32.0)
+        
+        view.addSubview(textField)
+        textField.centerY(inView: view)
+        textField.anchor(left: imageView.rightAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingLeft: 8.0, paddingBottom: 8.0)
+        
+        let separatorView = UIView()
+        separatorView.backgroundColor = .lightGray
+        view.addSubview(separatorView)
+        separatorView.anchor(left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor, paddingLeft: 8.0, height: 0.75)
+        
+        return view
+    }
     
     /// Add constraint to view
     ///

@@ -62,15 +62,13 @@
 		EA0DC30B2407053400BEA5F4 /* UberSkills */ = {
 			isa = PBXGroup;
 			children = (
+				EA0DC30C2407053400BEA5F4 /* AppDelegate.swift */,
 				EA0DC3252407057200BEA5F4 /* Utils */,
 				EA0DC3242407056E00BEA5F4 /* Service */,
 				EA0DC3232407056900BEA5F4 /* Controller */,
 				EA0DC3212407055C00BEA5F4 /* Model */,
 				EA0DC3202407055200BEA5F4 /* View */,
-				EA0DC30C2407053400BEA5F4 /* AppDelegate.swift */,
-				EA0DC3152407053500BEA5F4 /* Assets.xcassets */,
-				EA0DC3172407053500BEA5F4 /* LaunchScreen.storyboard */,
-				EA0DC31A2407053500BEA5F4 /* Info.plist */,
+				EA0DC33224071FF900BEA5F4 /* Resources */,
 			);
 			path = UberSkills;
 			sourceTree = "<group>";
@@ -114,6 +112,16 @@
 				EA0DC32E24071BC500BEA5F4 /* UILabel+Extension.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA0DC33224071FF900BEA5F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA0DC3172407053500BEA5F4 /* LaunchScreen.storyboard */,
+				EA0DC3152407053500BEA5F4 /* Assets.xcassets */,
+				EA0DC31A2407053500BEA5F4 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KZM8JH55Z4;
+				DEVELOPMENT_TEAM = WF2VPFB6RS;
 				INFOPLIST_FILE = UberSkills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.pietrzakmarcin.UberSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -347,7 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KZM8JH55Z4;
+				DEVELOPMENT_TEAM = WF2VPFB6RS;
 				INFOPLIST_FILE = UberSkills/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -356,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.pietrzakmarcin.UberSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

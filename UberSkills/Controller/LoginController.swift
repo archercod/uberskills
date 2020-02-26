@@ -106,9 +106,5 @@ class LoginController: UIViewController {
         let controller = SignUpController()
         navigationController?.pushViewController(controller, animated: true)
     }
-    
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
 
 }
